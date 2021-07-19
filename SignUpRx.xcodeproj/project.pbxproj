@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77A1F77126A5AC6D004C04F1 /* String+Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A1F77026A5AC6D004C04F1 /* String+Empty.swift */; };
 		77C0C33226A5754400406CF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C0C33126A5754400406CF8 /* AppDelegate.swift */; };
 		77C0C33426A5754400406CF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C0C33326A5754400406CF8 /* SceneDelegate.swift */; };
 		77C0C33626A5754400406CF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C0C33526A5754400406CF8 /* ViewController.swift */; };
@@ -15,13 +16,13 @@
 		77C0C34626A5755D00406CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C0C34526A5755D00406CF8 /* Main.storyboard */; };
 		77C0C34A26A5756A00406CF8 /* NameRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C0C34826A5756A00406CF8 /* NameRequest.swift */; };
 		77C0C34B26A5756A00406CF8 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C0C34926A5756A00406CF8 /* Credentials.swift */; };
-		77C0C34D26A5757200406CF8 /* SignUpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C0C34C26A5757200406CF8 /* SignUpRequest.swift */; };
 		77C0C35026A5768500406CF8 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 77C0C34F26A5768500406CF8 /* RxSwift */; };
 		77C0C35226A5768500406CF8 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 77C0C35126A5768500406CF8 /* RxCocoa */; };
 		77C0C35426A5768500406CF8 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 77C0C35326A5768500406CF8 /* RxRelay */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77A1F77026A5AC6D004C04F1 /* String+Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Empty.swift"; sourceTree = "<group>"; };
 		77C0C32E26A5754400406CF8 /* SignUpRx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignUpRx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C0C33126A5754400406CF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77C0C33326A5754400406CF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,7 +33,6 @@
 		77C0C34526A5755D00406CF8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		77C0C34826A5756A00406CF8 /* NameRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameRequest.swift; sourceTree = "<group>"; };
 		77C0C34926A5756A00406CF8 /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
-		77C0C34C26A5757200406CF8 /* SignUpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77A1F76F26A5AC63004C04F1 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				77A1F77026A5AC6D004C04F1 /* String+Empty.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
 		77C0C32526A5754400406CF8 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +76,7 @@
 		77C0C33026A5754400406CF8 /* SignUpRx */ = {
 			isa = PBXGroup;
 			children = (
+				77A1F76F26A5AC63004C04F1 /* Misc */,
 				77C0C34726A5756A00406CF8 /* Model */,
 				77C0C33126A5754400406CF8 /* AppDelegate.swift */,
 				77C0C33326A5754400406CF8 /* SceneDelegate.swift */,
@@ -84,7 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				77C0C34826A5756A00406CF8 /* NameRequest.swift */,
-				77C0C34C26A5757200406CF8 /* SignUpRequest.swift */,
 				77C0C34926A5756A00406CF8 /* Credentials.swift */,
 			);
 			path = Model;
@@ -170,9 +178,9 @@
 			files = (
 				77C0C33626A5754400406CF8 /* ViewController.swift in Sources */,
 				77C0C33226A5754400406CF8 /* AppDelegate.swift in Sources */,
+				77A1F77126A5AC6D004C04F1 /* String+Empty.swift in Sources */,
 				77C0C34B26A5756A00406CF8 /* Credentials.swift in Sources */,
 				77C0C34A26A5756A00406CF8 /* NameRequest.swift in Sources */,
-				77C0C34D26A5757200406CF8 /* SignUpRequest.swift in Sources */,
 				77C0C33426A5754400406CF8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
